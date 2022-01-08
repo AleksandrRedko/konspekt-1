@@ -1,0 +1,66 @@
+/*цвет основного текста #000000; */
+/*вторичный цвет rgba(0, 0, 0, 0.8); */
+/* белый  #FFFFFF; */
+/*синий #18A0FB; */
+/* background: #F5F5F5; */
+/* background: #FFFFFF; */
+:root {
+  --primery-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primery-white-color:#FFFFFF;
+}
+
+body {
+  background-color:var(--primery-text-color)
+  color: var(--primery-text-color);
+}
+.logo {
+  color: var(--title-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+/* aust-nav */
+
+/* hero */
+.hero-title {
+  color: var(--title-text-color);
+}
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+/* features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.feature-list .link {
+  color: var(--accent-color);
+}
+.feature-list .link:hover,
+.feature-list .link:focus {
+  color: var(--title-text-color);
+}
+/* button */
+.button{
+  color: var(--title-text-color);
+  background-color: var(--primery-bg-color);
+}
+.button.primery{
+  background-color:var(--accent-color);
+  color:var(--primery-white-color);
+}
+.button.secondary{
+  background-color: var(--primery-white-color);
+  color: var(--accent-color);
+}
