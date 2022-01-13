@@ -8,16 +8,28 @@
   --primery-text-color: rgba(0, 0, 0, 0.8);
   --title-text-color: #000000;
   --accent-color: #18a0fb;
-  --primery-white-color:#FFFFFF;
+  --primery-white-color: #ffffff;
 }
 
 body {
-  background-color:var(--primery-text-color)
+  background-color: var(--primery-whitet-color);
   color: var(--primery-text-color);
+
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
 }
 .logo {
   color: var(--title-text-color);
+
+  font-family: Comfortaa, cursive;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 1.14;
+  text-decoration: none;
 }
+
 ul {
   list-style: none;
 }
@@ -25,6 +37,11 @@ ul {
 /* site-nav */
 .site-nav .link {
   color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -35,15 +52,35 @@ ul {
 /* hero */
 .hero-title {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
 }
 /* section */
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+}
+.section .description {
+  font-size: 36px;
+  line-height: 1.39;
 }
 /* features */
-.feature-list .title {
+.feature-list .title,
+.work-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
 }
+
 .feature-list .link {
   color: var(--accent-color);
 }
@@ -51,16 +88,32 @@ ul {
 .feature-list .link:focus {
   color: var(--title-text-color);
 }
+/* вы в хорошей компании */
+.section .good {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
 /* button */
-.button{
+.button {
   color: var(--title-text-color);
   background-color: var(--primery-bg-color);
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
-.button.primery{
-  background-color:var(--accent-color);
-  color:var(--primery-white-color);
+.button.primery {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
 }
-.button.secondary{
+.button.secondary {
   background-color: var(--primery-white-color);
   color: var(--accent-color);
 }
