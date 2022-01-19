@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
    
     <!-- header -->
-    <header>
-      <a href="./index.html"class="logo"><img src="./img1/union.svg" alt="logo" />photo</a>
+    <header class="page-heder">
+      <nav class="container">
+        <a href="./index.html"class="logo"><img src="./img1/union.svg" alt="logo" />photo</a>
       <ul class="site-nav list">
         <li><a href=""class="link">Features</a></li>
         <li><a href=""class="link">Pricing</a></li>
@@ -23,7 +25,9 @@
         <li><a href="" class="button secondary">Log in</a></li>
         <li><a href="" class="button primery">Register</a></li>
       </ul>
+      </nav>
     </header>
+    
     <!-- hero -->
     <main>
       <section class="hero">
@@ -32,7 +36,8 @@
       </section>
       <!-- body -->
       <section class="section">
-        <h2 class="section-title">
+        <div class="container">
+          <h2 class="section-title">
           Snap photos and share like <br />
           never before
         </h2>
@@ -74,12 +79,14 @@
             <a href="" class="button secondary">Learn more</a>
           </li>
         </ul>
+        </div>
       </section>
       <!-- примеры работ -->
-      <section class="section">
+      <section class="section.not-padding">
+      <div class="container">
         <h2 class="section-title">Examples</h2>
         <ul class="work-list">
-          <li>
+          <li class="item">
             <img src="./img1/rectangle.jpg" alt="примеры работ" width="750" />
             <h3 class="title">Sed ut perspiciatis unde omnis</h3>
             <p>
@@ -88,7 +95,7 @@
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
             </p>
           </li>
-          <li>
+          <li class="item">
             <img src="./img1/rectangle.jpg" alt="примеры работ" width="750" />
             <h3 class="title">Sed ut perspiciatis unde omnis</h3>
             <p>
@@ -98,10 +105,12 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <!-- вы в хорошей компании -->
       <section class="section">
-        <h2 class="good">You’re in good company</h2>
+        <div class="container">
+          <h2 class="good">You’re in good company</h2>
         <p class="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
@@ -116,12 +125,15 @@
           <li><a href=""><img src="./img1/logo4.svg" alt="логотип" /></li></a>
           <li><a href=""><img src="./img1/logo4.svg" alt="логотип" /></li></a>
         </ul>
+        </div>
       </section>
       <!-- Signup  -->
       <section class="section">
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+        <div class="container">
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
         <a href="" class="button primery">Join Today</a>
         <a href="" class="button secondary">Contact us</a>
+        </div>
       </section>
     </main>
     <!-- footer -->
